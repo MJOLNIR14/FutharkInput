@@ -77,7 +77,7 @@ You are encouraged to read it.
 ---
 
 ## ᚱᚨᛁᛞᚺᛟ — The Architecture
-
+```
 app/src/main/
 ├── kotlin/com/erebus/futharkinput/
 │   ├── FutharkInputService.kt  // The IME. The beating heart.
@@ -95,6 +95,7 @@ app/src/main/
     │   └── activity_main.xml         // Setup screen
     └── drawable/
         └── key_background.xml        // Key press states
+```
 
 **Stack:** Kotlin · Android SDK 24+ · Native `InputMethodService` · Native `KeyboardView`
 
