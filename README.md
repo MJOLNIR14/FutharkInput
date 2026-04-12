@@ -80,21 +80,21 @@ You are encouraged to read it.
 
 app/src/main/
 ├── kotlin/com/erebus/futharkinput/
-│   ├── FutharkInputService.kt     — The IME. The beating heart.
-│   ├── MainActivity.kt            — Setup guide + live test field
-│   └── HintKeyboardView.kt        — Custom KeyboardView, draws corner symbol hints
+│   ├── FutharkInputService.kt  // The IME. The beating heart.
+│   ├── MainActivity.kt         // Setup guide + live test field
+│   └── HintKeyboardView.kt     // Custom KeyboardView, draws corner symbol hints
 └── res/
     ├── xml/
-    │   ├── rune_keyboard.xml          — Aett layout, three rows of eight
-    │   ├── rune_qwerty_keyboard.xml   — Phonetic QWERTY runic layout
-    │   ├── qwerty_keyboard.xml        — English layout
-    │   ├── symbols_keyboard.xml       — Full symbols page
-    │   └── method.xml                 — IME declaration
+    │   ├── rune_keyboard.xml         // Aett layout, three rows of eight
+    │   ├── rune_qwerty_keyboard.xml  // Phonetic QWERTY runic layout
+    │   ├── qwerty_keyboard.xml       // English layout
+    │   ├── symbols_keyboard.xml      // Full symbols page
+    │   └── method.xml                // IME declaration
     ├── layout/
-    │   ├── keyboard_view.xml          — HintKeyboardView host
-    │   └── activity_main.xml          — Setup screen
+    │   ├── keyboard_view.xml         // HintKeyboardView host
+    │   └── activity_main.xml         // Setup screen
     └── drawable/
-        └── key_background.xml         — Key press states
+        └── key_background.xml        // Key press states
 
 **Stack:** Kotlin · Android SDK 24+ · Native `InputMethodService` · Native `KeyboardView`
 
