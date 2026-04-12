@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D0D0D">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ᚠᚢᚦᚨᚱᚲ"
+            android:textSize="42sp"
+            android:textColor="#E0E0E0"
+            android:letterSpacing="0.2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elder Futhark Input"
+            android:textSize="20sp"
+            android:textColor="#AAAAAA"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checking..."
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="28dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Setup steps -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1 — Enable the keyboard"
+            android:textSize="15sp"
+            android:textColor="#AAAAAA"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_enable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Keyboard Settings"
+            android:backgroundTint="#1A1A1A"
+            android:textColor="#E0E0E0"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 2 — Switch to it"
+            android:textSize="15sp"
+            android:textColor="#AAAAAA"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch Keyboard"
+            android:backgroundTint="#1A1A1A"
+            android:textColor="#E0E0E0"
+            android:layout_marginBottom="28dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Test box -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test your keyboard"
+            android:textSize="15sp"
+            android:textColor="#AAAAAA"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/test_input"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#1A1A1A"
+            android:textColor="#E0E0E0"
+            android:textColorHint="#444444"
+            android:hint="Tap here and start typing runes..."
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="28dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Credits -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌗 Mjölnir"
+            android:textSize="18sp"
+            android:textColor="#E0E0E0"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crafted with intention."
+            android:textSize="13sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No internet. No logging. No noise."
+            android:textSize="12sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="32dp"/>
+
+    </LinearLayout>
+</ScrollView>
