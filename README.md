@@ -54,11 +54,11 @@ Anywhere a keyboard opens, this one opens instead.
 
 <table>
   <tr>
-    <td align="center"><img src="docs/images/home_screen.png" width="160"><br>Home</td>
-    <td align="center"><img src="docs/images/rune_aett.png" width="160"><br>Rune Aett</td>
-    <td align="center"><img src="docs/images/long_press.png" width="160"><br>Long Press</td>
-    <td align="center"><img src="docs/images/rune_qwerty.png" width="160"><br>Rune QWERTY</td>
-    <td align="center"><img src="docs/images/english_qwerty.png" width="160"><br>English</td>
+    <td align="center"><img src="docs/images/futhark.png" width="160"><br>Home</td>
+    <td align="center"><img src="docs/images/runes.png" width="160"><br>Rune Aett</td>
+    <td align="center"><img src="docs/images/ansuz.png" width="160"><br>Long Press</td>
+    <td align="center"><img src="docs/images/qwerty_runes.png" width="160"><br>Rune QWERTY</td>
+    <td align="center"><img src="docs/images/qwerty.png" width="160"><br>English</td>
   </tr>
 </table>
 
