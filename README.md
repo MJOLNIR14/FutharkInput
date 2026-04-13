@@ -50,32 +50,16 @@ Anywhere a keyboard opens, this one opens instead.
 
 <div align="center">
 
+## ᛋᛟᚹᛁᛚᛟ — In the flesh
+
 <table>
-<tr>
-<td align="center">
-<img src="docs/images/futhark.png" width="180"/><br/>
-<sub>Home screen</sub>
-</td>
-<td align="center">
-<img src="docs/images/runes.png" width="180"/><br/>
-<sub>Rune Aett keyboard</sub>
-</td>
-<td align="center">
-<img src="docs/images/ansuz.png" width="180"/><br/>
-<sub>Long-press rune info</sub>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="docs/images/qwerty_runes.png" width="180"/><br/>
-<sub>Rune QWERTY keyboard</sub>
-</td>
-<td align="center">
-<img src="docs/images/qwerty.png" width="180"/><br/>
-<sub>English keyboard</sub>
-</td>
-<td align="center"></td>
-</tr>
+  <tr>
+    <td align="center"><img src="docs/images/home_screen.png" width="160"><br>Home</td>
+    <td align="center"><img src="docs/images/rune_aett.png" width="160"><br>Rune Aett</td>
+    <td align="center"><img src="docs/images/long_press.png" width="160"><br>Long Press</td>
+    <td align="center"><img src="docs/images/rune_qwerty.png" width="160"><br>Rune QWERTY</td>
+    <td align="center"><img src="docs/images/english_qwerty.png" width="160"><br>English</td>
+  </tr>
 </table>
 
 </div>
