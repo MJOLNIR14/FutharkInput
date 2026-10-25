@@ -35,14 +35,14 @@
         <Key android:codes="5854" android:keyLabel="ᛞ"/>
         <Key android:codes="5855" android:keyLabel="ᛟ" android:keyEdgeFlags="right"/>
     </Row>
-    <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="1001" android:keyLabel="ABC"  android:keyWidth="18%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="1002" android:keyLabel="⌨"    android:keyWidth="12%p"/>
-        <Key android:codes="5867" android:keyLabel="᛫"    android:keyWidth="10%p"/>
-        <Key android:codes="32"   android:keyLabel="SPACE" android:keyWidth="20%p"/>
-        <Key android:codes="5868" android:keyLabel="᛬"    android:keyWidth="10%p"/>
-        <Key android:codes="-5"   android:keyLabel="⌫"    android:keyWidth="12%p" android:isRepeatable="true"/>
-        <Key android:codes="10"   android:keyLabel="↵"    android:keyWidth="18%p" android:keyEdgeFlags="right"/>
+        <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="1001" android:keyLabel="ABC"   android:keyWidth="17%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1002" android:keyLabel="⌨"     android:keyWidth="11%p"/>
+        <Key android:codes="5867" android:keyLabel="᛫"     android:keyWidth="9%p"/>
+        <Key android:codes="32"   android:keyLabel="SPACE" android:keyWidth="25%p"/>
+        <Key android:codes="5868" android:keyLabel="᛬"     android:keyWidth="9%p"/>
+        <Key android:codes="-5"   android:keyLabel="⌫"     android:keyWidth="11%p" android:isRepeatable="true"/>
+        <Key android:codes="10"   android:keyLabel="↵"     android:keyWidth="15%p" android:keyEdgeFlags="right"/>
     </Row>
 
 </Keyboard>

@@ -64,13 +64,13 @@
 
     <!-- Bottom row -->
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="1001" android:keyLabel="ᚠᚢᚦ" android:keyWidth="15%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="1004" android:keyLabel="!#1"  android:keyWidth="15%p"/>
-        <Key android:codes="44"   android:keyLabel=","    android:keyWidth="10%p"/>
-        <Key android:codes="32"   android:keyLabel="SPACE" android:keyWidth="20%p"/>
-        <Key android:codes="46"   android:keyLabel="."    android:keyWidth="10%p"/>
-        <Key android:codes="1002" android:keyLabel="⌨"   android:keyWidth="10%p"/>
-        <Key android:codes="10"   android:keyLabel="↵"   android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="1001" android:keyLabel="ᚠᚢᚦ" android:keyWidth="14%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1004" android:keyLabel="!#1" android:keyWidth="14%p"/>
+        <Key android:codes="44"   android:keyLabel="," android:keyWidth="9%p"/>
+        <Key android:codes="32"   android:keyLabel="SPACE" android:keyWidth="25%p"/>
+        <Key android:codes="46"   android:keyLabel="." android:keyWidth="9%p"/>
+        <Key android:codes="1002" android:keyLabel="⌨" android:keyWidth="10%p"/>
+        <Key android:codes="10"   android:keyLabel="↵" android:keyWidth="16%p" android:keyEdgeFlags="right"/>
     </Row>
 
 </Keyboard>
