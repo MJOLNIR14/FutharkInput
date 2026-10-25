@@ -49,13 +49,13 @@
 
     <!-- Bottom row -->
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="1001" android:keyLabel="ABC"  android:keyWidth="18%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="1002" android:keyLabel="⌨"    android:keyWidth="12%p"/>
-        <Key android:codes="5867" android:keyLabel="᛫"    android:keyWidth="10%p"/>
-        <Key android:codes="32"   android:keyLabel="SPACE" android:keyWidth="20%p"/>
-        <Key android:codes="5868" android:keyLabel="᛬"    android:keyWidth="10%p"/>
-        <Key android:codes="-5"   android:keyLabel="⌫"    android:keyWidth="12%p" android:isRepeatable="true"/>
-        <Key android:codes="10"   android:keyLabel="↵"    android:keyWidth="18%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="1001" android:keyLabel="ABC"   android:keyWidth="14%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1002" android:keyLabel="⌨"     android:keyWidth="10%p"/>
+        <Key android:codes="5867" android:keyLabel="᛫"     android:keyWidth="9%p"/>
+        <Key android:codes="32"   android:keyLabel="SPACE" android:keyWidth="28%p"/>
+        <Key android:codes="5868" android:keyLabel="᛬"     android:keyWidth="9%p"/>
+        <Key android:codes="-5"   android:keyLabel="⌫"     android:keyWidth="11%p" android:isRepeatable="true"/>
+        <Key android:codes="10"   android:keyLabel="↵"     android:keyWidth="16%p" android:keyEdgeFlags="right"/>
     </Row>
 
 </Keyboard>

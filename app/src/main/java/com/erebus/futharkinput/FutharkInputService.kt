@@ -1,5 +1,7 @@
 package com.erebus.futharkinput
 
+import android.os.Build
+import android.view.WindowInsets
 import android.graphics.Color
 import android.graphics.Typeface
 import android.inputmethodservice.InputMethodService
@@ -125,7 +127,57 @@ class FutharkInputService : InputMethodService(),
             }
         }
 
-        return keyboardView
+        val bottomSpacer = View(this).apply {
+            setBackgroundColor(Color.parseColor("#0D0D0D"))
+        }
+
+        val root = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setBackgroundColor(Color.parseColor("#0D0D0D"))
+
+            addView(
+                keyboardView,
+                LinearLayout.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT,
+                    ViewGroup.LayoutParams.WRAP_CONTENT
+                )
+            )
+
+            addView(
+                bottomSpacer,
+                LinearLayout.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT,
+                    0
+                )
+            )
+        }
+
+        root.setOnApplyWindowInsetsListener { _, insets ->
+            val bottomInset = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                val navigationInset = insets.getInsetsIgnoringVisibility(
+                    WindowInsets.Type.navigationBars()
+                ).bottom
+
+                val imeControlsInset = insets.getInsets(
+                    WindowInsets.Type.captionBar()
+                ).bottom
+
+                navigationInset + imeControlsInset
+            } else {
+                @Suppress("DEPRECATION")
+                insets.systemWindowInsetBottom
+            }
+
+            val params = bottomSpacer.layoutParams
+            if (params.height != bottomInset) {
+                params.height = bottomInset
+                bottomSpacer.layoutParams = params
+            }
+
+            insets
+        }
+
+        return root
     }
 
     override fun onStartInputView(info: EditorInfo?, restarting: Boolean) {
